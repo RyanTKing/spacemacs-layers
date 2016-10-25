@@ -1,0 +1,3 @@
+[submodule "ats2/local/ats2-mode"]
+	path = ats2/local/ats2-mode
+	url = https://github.com/RyanTKing/ats2-mode.git
