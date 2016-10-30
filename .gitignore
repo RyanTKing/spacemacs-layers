@@ -3,10 +3,3 @@
 
 # Packaging
 .cask
-
-# Spacemacs Local Data
-/local
-/snippets
-
-# macOS
-.DS_Store
