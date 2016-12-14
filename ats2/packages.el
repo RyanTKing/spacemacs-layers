@@ -23,8 +23,8 @@
   "Setup and configure ats-mode."
   (use-package ats2-mode
     :defer t
-    :mode (("\\.dats\\'" . ats-mode)
-           ("\\.\\(c\\|s\\)ats\\'" . c/ats-mode))))
+    :mode (("\\.\\(s\\|d\\)ats\\'" . ats-mode)
+           ("\\.cats\\'" . c/ats-mode))))
 
 (defun ats2/init-flycheck-ats2 ()
   "Add ats support to flycheck."
